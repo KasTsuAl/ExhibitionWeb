@@ -1,0 +1,42 @@
+.ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+}
+.btn-darkred {
+    color: #fff;
+    background-color: #B80000;
+    border-color: #B80000;
+}
+.btn-darkred:hover {
+    color: #fff;
+    background-color: #A80000;
+    border-color: #B80000;
+}
+.text-gold {
+    color:gold;
+}
+.text-silver {
+    color:silver;
+}
+.text-copper {
+    color:coral;
+}
+#facebook {
+    color: #4267B2;
+}
+#facebook:hover {
+    color: #4249b2;
+    cursor: pointer;
+}
+.bs {
+    color: #7952B3;
+}
+.dp {
+    background-color: cornsilk;
+}
+.carousel-item{
+    transition: transform 2s ease, opacity .5s ease-out;
+}
